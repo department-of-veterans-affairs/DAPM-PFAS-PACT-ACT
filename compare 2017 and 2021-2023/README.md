@@ -1,5 +1,7 @@
 <h1> Comparing Per- and Polyfluoroalkyl Substances (PFAS) concentrations collected in 2017 v. 2021-2023. </h1>
 
+<img src="https://github.com/department-of-veterans-affairs/DAPM-PFAS-PACT-ACT/blob/main/compare%202017%20and%202021-2023/highlight%20compare%20image.JPG">
+
 This code compare PFAS concentrations collected in drinking water on or near military installations in 2017 v. 2021-2023. 22 military installations were in both datasets. The report that presented the 2017 concentrations was dated March 2018, which is why 2018 is used in the code. 
 
 All data was scraped from the Department of Defense's publicly available PFAS website: https://www.acq.osd.mil/eie/eer/ecc/pfas/map/pfasmap.html. 
