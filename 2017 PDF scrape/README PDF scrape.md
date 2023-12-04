@@ -1,7 +1,9 @@
+<h1> Scraping data from a PDF File: Per- and Polyfluoroalkyl Substances (PFAS) concentrations in drinking water on or near military installations, as of August 31, 2017 </h1>
+
 <img src="https://github.com/department-of-veterans-affairs/DAPM-DOD-PFAS-PDF-scrape/blob/main/PDF%20image.PNG" width=47% height=47%>   <b> &rarr; </b>   <img src="https://github.com/department-of-veterans-affairs/DAPM-DOD-PFAS-PDF-scrape/blob/main/all_sample_data_18%20image.PNG" width=47% height=47%>
 
 
-The code in this repository scrapes data from a publicly available Department of Defense PDF file: <https://www.denix.osd.mil/derp/denix-files/sites/26/2018/03/FY18-HASC-Brief-on-PFOS-PFOA_Mar2018.pdf>. The PDF file contains data tables that report concentrations of hazardous waste, specifically per- and polyfluoroalkyl substances (PFAS) concentrations, that were collected in drinking water samples on or near military bases. Though the PDF file also reports groundwater samples, this data was not scraped. The report was dated March 2018. The pages with tables for the miltiary bases say "As of August 31, 2017." No other dates were specified for when the samples were collected. 
+The code in this repository scrapes data from a publicly available Department of Defense PDF file: <https://www.denix.osd.mil/derp/denix-files/sites/26/2018/03/FY18-HASC-Brief-on-PFOS-PFOA_Mar2018.pdf>. The PDF file contains data tables that report concentrations of hazardous waste, specifically PFAS, concentrations, that were collected in drinking water samples on or near military bases. Though the PDF file also reports groundwater samples, this data was not scraped. The report was dated March 2018. The pages with tables for the miltiary bases say "As of August 31, 2017." No other dates were specified for when the samples were collected. 
 
 While the goal was to automate cleaning the data tables as much as a possible, the function for cleaning data for each military branch had to be tweaked because of inconsistencies in how the data was reported. Thus, the data for each branch was cleaned separately and then all the data was combined in a single table at the end. 
 
