@@ -13,4 +13,6 @@ All data was scraped from the Department of Defense's publicly available PFAS we
 
 <b>Inputs:</b>
 
-<i>1. 2017 PFAS dataframe. Dataframe that contains hazardous waste, specifically PFAS concentrations in drinking water collected as of 2017.</i> Please see the "DAPM-PFAS-PDF-scrape" repoisitory on VA's GitHub account for the code that scrapes a PDF file for the PFAS data.
+<i>1. 2017 PFAS dataframe. Dataframe that contains PFAS concentrations in drinking water on or near military installations collected as of 2017.</i> Please see the "DAPM-PFAS-2017-PDF-scrape" folder in this repository for the code that scrapes a PDF file for the 2017 data. 
+
+<i>2. 2021-2023 PFAS dataframe. Dataframe that contains PFAS concentrations in drinking water on military installations collected in 2021-203.</i> Please see the "DAPM-PFAS-2021_2023_webscrape" folder in this repository for the code that webscrapes the 2021-2023 data. 
