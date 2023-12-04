@@ -12,4 +12,5 @@ All data was scraped from the Department of Defense's publicly available PFAS we
 <i>3. Highlighting rows if the concentrations in 2018 were lower than concentrations in 2021-2023.</i> Note the highlighting does not appear on GitHub. 
 
 <b>Inputs:</b>
+
 <i>1. 2017 PFAS dataframe. Dataframe that contains hazardous waste, specifically PFAS concentrations in drinking water collected as of 2017.</i> Please see the "DAPM-PFAS-PDF-scrape" repoisitory on VA's GitHub account for the code that scrapes a PDF file for the PFAS data.
