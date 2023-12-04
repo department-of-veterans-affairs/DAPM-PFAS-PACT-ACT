@@ -1,4 +1,4 @@
-<h1> Scraping data from a PDF File: Per- and Polyfluoroalkyl Substances (PFAS) concentrations in drinking water on or near military installations, as of August 31, 2017 </h1>
+<h1> Scraping data from a PDF file: Per- and Polyfluoroalkyl Substances (PFAS) concentrations in drinking water on or near military installations, as of August 31, 2017 </h1>
 
 <img src="https://github.com/department-of-veterans-affairs/DAPM-DOD-PFAS-PDF-scrape/blob/main/PDF%20image.PNG" width=47% height=47%>   <b> &rarr; </b>   <img src="https://github.com/department-of-veterans-affairs/DAPM-DOD-PFAS-PDF-scrape/blob/main/all_sample_data_18%20image.PNG" width=47% height=47%>
 
