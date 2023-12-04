@@ -4,3 +4,7 @@ This code compare PFAS concentrations collected in drinking water on or near mil
 
 All data was scraped from the Department of Defense's publicly available PFAS website: https://www.acq.osd.mil/eie/eer/ecc/pfas/map/pfasmap.html. 
 
+<b>Highlighted Capabilities:</b>
+<i>1. Automating some of the matching process using fuzzy matching.</i>
+<i>2. Joining data from one dataframe to another. </i>
+<i>3. Highlighting rows if the concentrations in 2018 were lower than concentrations in 2021-2023. 
