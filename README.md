@@ -13,7 +13,7 @@ If a cell in the "results" column in a table is blank, no concentrations were de
 
 <b> Folders and files contained in this repository:</b>
 
-<i>1.2017 PDF scrape:</i> folder that contains code that scrapes the 2017 data from the PDF file. 
+<i>1. 2017 PDF scrape:</i> folder that contains code that scrapes the 2017 data from the PDF file. 
 
 <i>2. 2017 spatial:</i> folder that contains code that joins spatial data to the 2017 data, allowing the 2017 concentrations to be mapped. 
 
