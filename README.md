@@ -14,8 +14,12 @@ For the 2017 data, the concentrations were reported as a combination of PFOA and
 If a result cell in the attribute table is blank, no concentrations were detected. 
 
 The "2017 PDF scrape" folder contains code that scrapes the 2017 data from the PDF file. 
+
 The "2017 spatial" contains code that joins this data to spatial data, allowing the data to then be mapped. 
+
 The "2021-2023 webscrape" folder contains code that scrapes the 2021-2023 from a website using an API and then maps it using geopandas. 
+
 The "compare 2017 and 2021-2023" contains code that looks for overlap in military installations in the 2017 and 2021-2023 datasets and compares the sample results. 
 
-The "DOD
+
+The "PFAS PACT Act data dictionary.xlsx" file contains information on each of the tables generated in the code. There are .csv files that are created throughout the code. The data dictionary defines what is contained in those .csv files and then subsequent tabs define the columns in those .csv tables. 
