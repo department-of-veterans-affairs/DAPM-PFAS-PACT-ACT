@@ -14,7 +14,11 @@ If a cell in the "results" column in a table is blank, no concentrations were de
 <b> Folders and files contained in this repository:</b>
 
 <i>1.2017 PDF scrape:</i> folder that contains code that scrapes the 2017 data from the PDF file. 
+
 <i>2. 2017 spatial:</i> folder that contains code that joins spatial data to the 2017 data, allowing the 2017 concentrations to be mapped. 
+
 <i>3. 2021-2023 webscrape:</i> folder that contains code that scrapes the 2021-2023 from a website using an API and then maps it using geopandas. 
+
 <i>4. compare 2017 and 2021-2023:</i> folder that contains code that looks for military installations reported in both the 2017 and 2021-2023 datasets and compares the sample results. 
+
 <i>5. PFAS PACT Act data dictionary.xlsx:</i> file that contains information on each of the tables generated in the code. There are .csv files that are created throughout the code. The data dictionary defines what is contained in those .csv files and then subsequent tabs define the columns in those .csv tables. 
