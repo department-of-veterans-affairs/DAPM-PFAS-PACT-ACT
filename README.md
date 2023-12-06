@@ -7,7 +7,7 @@ This repository contains the Python code that scrapes, cleans, and maps data on 
 
 The PFAS concentrations displayed are either Perfluorooctanoic acid (PFOA) or Perfluorooctane sulfonic acid (PFOS) which are members of the PFAS chemical group. For the 2017 data, the concentrations were reported as a combination of PFOA and PFOS or the analyte was unspecified.
 
-The Environmental Protection Agency (EPA) has presented concentration thresholds for PFAS to be used for evaluating the risk of PFOA and PFOS in drinking water to human health: 70 parts per trillion (ppt) and, more recenlty, 4 ppt. For the 2021-2023 data, one table is created that has a Boolean value (True / False) indidcating if the sample results exceeds 70 ppt and another that adjust this threshold to 4 ppt. For the 2017 data, all concentrations were above 70 ppt. 
+The Environmental Protection Agency (EPA) has presented concentration thresholds to be used for evaluating the risk of PFOA and PFOS in drinking water to human health: 70 parts per trillion (ppt) either PFOS or PFOA separate or combined and, more recenlty, 4 ppt either PFOS or PFOA. For the 2021-2023 data, one table is created that has a Boolean value (True / False) indidcating if the sample results exceeds 70 ppt and another that adjust this threshold to 4 ppt. For the 2017 data, all concentrations were above 70 ppt. 
  
 If a cell in the "results" column in a table is blank, no concentrations were detected or reported. 
 
