@@ -20,7 +20,7 @@ All data was scraped from the Department of Defense's publicly available PFAS we
 
 <i>2. 2021-2023 PFAS dataframe.</i> Dataframe that contains PFAS concentrations in drinking water on military installations collected in 2021-2023. Please see the "2021-2023 webscrape" folder in this repository for the code that webscrapes the 2021-2023 data. 
 
-<b>Outputs:</b> A single dataframe containing joined data for military installations present in both the 2017 and 2021-2023 datasets. 22 installations were present in both. Two of the installations reported concentrations that were higher in 2021-2023 than 2017. The rows for these installations were highlighted. 
+<b>Output:</b> A single dataframe containing joined data for military installations present in both the 2017 and 2021-2023 datasets. 22 installations were present in both. Two of the installations reported concentrations that were higher in 2021-2023 than 2017. The rows for these installations were highlighted. 
 
 <b>Methods:</b>
 1. Import stored 2017 and 2021-2023 dataframes.
