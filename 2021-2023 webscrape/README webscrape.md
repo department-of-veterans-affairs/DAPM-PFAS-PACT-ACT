@@ -17,7 +17,7 @@ The code does the following:
    1. Sends API request to a public DOD website and pulls in geospatial locations for military installtions in the United States and PFAS concentrations measured at those installations in JSON format.
    2. Accesses JSON sublists if needed and converts lists to a pandas dataframe.
    3. Cleans the data by removing nan values and then filters the data a variety of ways, such as by only selecting PFOA and PFOS (forms of PFAS that the EPA has proposed standards for).
-   4. Compares the concentrations of PFOA and PFOS to EPA's proposed standard of 4 ppt and identifying samples that exceed this by marking it with a True statement in a column.
+   4. Compares the concentrations of PFOA and PFOS to EPA's proposed standard of 4 ppt and identifies samples that exceed this by marking it with a True statement in a column.
    5. Filters the data again in a variety of ways (i.e. selecting only installations that exceed this standard, determining the number of installationss with exceedances, determining the number of installations with exceedances and no treatment system).
    6. Filtes the data so only the highest concentration of PFOA or PFOS is selected for each military installation. This allows for easy viewing on a map.
    7. Merges the geospatial locations (i.e. latitude and longitudes) and highest concentration of PFAS for each military installation to allow for mapping.
