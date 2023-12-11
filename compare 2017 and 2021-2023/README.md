@@ -7,6 +7,7 @@ This code compares military installations in both the 2017 and 2021-2023 dataset
 All data was scraped from the Department of Defense's publicly available PFAS website: https://www.acq.osd.mil/eie/eer/ecc/pfas/map/pfasmap.html. 
 
 <b>Highlighted Capabilities:</b>
+
 <i>1. Automating some of the matching process using fuzzy matching.</i>
 
 <i>2. Joining data from one dataframe to another. </i>
