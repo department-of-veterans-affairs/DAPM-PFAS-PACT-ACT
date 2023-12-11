@@ -12,7 +12,7 @@ While the goal was to automate cleaning the data tables as much as a possible, t
 
 <i> 1. Extracting max value from a messy field.</i> One of the highlights of this code is it extracts the highest reported value from a messy data field that contains multiple nubmers, punctuation, and text. 
 
-<i>2. Collapsing multi-level column headers while still capturing the data.</i> The code also applies tidy data concepts by taking multi-level headers and extracting them as separate data fields, thus capturing the information and collapsing the multi-levels into a singular level of column headers.
+<i>2. Collapsing multi-level column headers while still capturing the data.</i> The code also applies tidy data concepts by taking multi-level headers and extracting them as separate data fields, thus capturing the information in newly created columns and collapsing the multi-levels into a singular level of column headers.
 
 <i>3. Scraping data from a PDF file.</i> Finally, it is notoriously hard to scrape data from a PDF file. This code leverages the requests and pdfplumber packages to scrape data in table format from the file. This demonstrates advanced data mining capabilities and accesses data from formats that are consider difficult to mine. 
 
