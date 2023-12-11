@@ -32,6 +32,6 @@ All data was scraped from the Department of Defense's publicly available PFAS we
 4. Filter the fuzzy dataframe to only keep installations with a similarity score greater than or equal to 87%. 
 5. Filter the spatial dataframe to only keep specific columns needed.
 6. Join / merge the spatial dataframe to the fuzzy dataframe.
-7. Filter the merged dataframe to only keep specific rows.
+7. Filter the merged dataframe to only keep specific columns.
 8. Calculate the number of unique military installations by name.
 9. Export merged and filtered dataframe to .csv for use in a mapping application. 
