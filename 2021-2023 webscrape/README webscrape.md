@@ -38,6 +38,6 @@ The code does the following:
    2. Filters the dataframe to only the necessary information for mapping.
    3. Uses geopandas to create a geometry column which contains both the latitudes and longitudes for each military installation.
    4. Filters the data so only includes data for the continental US to allow for a map that is easier to view.
-   5. Pulls in the basemap from USGS and makes sure the projections are the same between the basemap and the military base data (WGS84).
+   5. Pulls in the basemap from USGS and makes sure the projections are the same between the basemap and the military installation data (WGS84).
    6. Maps the military installations on top of the basemap. The local version of this notebook produced a pop out window with the map that allows the user to zoom in to see the labels more clearly. 
 
