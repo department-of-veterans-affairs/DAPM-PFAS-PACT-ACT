@@ -21,7 +21,7 @@ All data was scraped from the Department of Defense's publicly available PFAS we
 
 <i>1. Spatial dataframe.</i> Dataframe containing 703 military installations and their latitude and longitude coordinates. Please see the "2021-2023 webscrape" folder for the code that webscrapes the spatial data. 
 
-<i>2. 2017 PFAS dataframe. </i> Dataframe that contains hazardous waste, specifically PFAS concentrations in drinking water collected as of 2017. Please see the "2017 PDF Scrape" folder for the code that scrapes a PDF file for the PFAS data. 
+<i>2. 2017 PFAS dataframe. </i> Dataframe that contains hazardous waste, specifically PFAS concentrations in drinking water collected as of 2017. Please see the "2017 PDF scrape" folder for the code that scrapes a PDF file for the PFAS data. 
 
 <b>Output:</b> A single dataframe that has the 2017 PFAS data with spatial data attached. Spatial data was found and joined for 48 out 55 unique installations. 
 
