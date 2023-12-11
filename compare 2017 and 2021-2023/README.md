@@ -12,7 +12,7 @@ All data was scraped from the Department of Defense's publicly available PFAS we
 
 <i>2. Joining data from one dataframe to another. </i>
 
-<i>3. Highlighting rows if the concentrations in 2018 were lower than concentrations in 2021-2023.</i> Note the highlighting does not appear on GitHub. 
+<i>3. Highlighting rows if the concentrations in 2017 were lower than concentrations in 2021-2023.</i> Note the highlighting does not appear on GitHub. 
 
 <b>Inputs:</b>
 
