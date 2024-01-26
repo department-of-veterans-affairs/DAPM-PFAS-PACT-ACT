@@ -1,8 +1,8 @@
 <h1>Adding spatial data to the 2017 PFAS data</h1>
 
 
-<img src="https://github.com/department-of-veterans-affairs/DAPM-PFAS-PACT-ACT/blob/main/2017%20spatial/map%202018%20image.JPG">
-
+<img src="https://github.com/department-of-veterans-affairs/DAPM-PFAS-PACT-ACT/blob/main/2017%20spatial/2017%20map.jpg">
+<p>Figure:This map shows the location of military installations with at least one exceedance of the Environmental Protection Agency’s proposed previous sceening level of 70 parts per trillion (ppt) in drinking water in the 2017 dataset, which were all of the installations reported. The larger the circle, the higher the concentration of PFAS.</p>
 
 
 The code in this repository adds spatial data from one dataframe to another using fuzzy matching. It specifically finds matches between military installation names present in both a dataframe that contains spatial data and another dataframe that contains hazardous waste, specifically Per- and polyfluoroalkyl substances (PFAS), concentrations in drinking water. 
@@ -33,5 +33,4 @@ All data was scraped from the Department of Defense's publicly available PFAS we
 5. Filter the spatial dataframe to only keep specific columns needed.
 6. Join / merge the spatial dataframe to the fuzzy dataframe.
 7. Filter the merged dataframe to only keep specific columns.
-8. Calculate the number of unique military installations by name.
-9. Export merged and filtered dataframe to .csv for use in a mapping application. 
+8. Create a map of installations that exceed EPA's proposed standard and screening levels. 
